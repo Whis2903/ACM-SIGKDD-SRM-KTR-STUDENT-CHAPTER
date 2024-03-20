@@ -7,7 +7,7 @@ import { getFirestore } from "firebase/firestore";
 const config = {
   apiKey: "AIzaSyBGmcQMpkrpBMf9SFfuqvfFwMLExfGC5SA",
   authDomain: "acm-sigkdd-srm-ktr.firebaseapp.com",
-  databaseURL: "https://acm-sigkdd-srm-ktr.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://gfgsc-gcet-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "acm-sigkdd-srm-ktr",
   storageBucket: "acm-sigkdd-srm-ktr.appspot.com",
   messagingSenderId: "306151762770",
