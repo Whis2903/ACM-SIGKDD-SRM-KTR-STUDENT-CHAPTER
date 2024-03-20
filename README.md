@@ -1,4 +1,4 @@
-# GFGSC-GCET Website
+# ACM SIGKDD SRM KTR Website
 
 ## Project Requirements
 
