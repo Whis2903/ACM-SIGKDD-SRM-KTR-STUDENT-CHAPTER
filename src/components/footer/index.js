@@ -95,15 +95,7 @@ TAG LINE          </p>
             ACM SIGKDD Chapter SRM IST <br /> Kattankulathur
           </p>
           <p className="mt-2">
-            This website is open-sourced ❤.
-            <br />
-            Get the code{" "}
-            <a
-              href="https://github.com/GFGSC-GCET/website"
-              className="underline font-bold"
-            >
-              here
-            </a>
+            Made with love ❤.
           </p>
         </div>{" "}
       </div>

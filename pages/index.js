@@ -41,7 +41,7 @@ const Home = () => {
                                 <iframe
                                     className="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden"
                                     src="https://www.youtube.com/embed/Uo3WGGSrW8Y?si=nRJRv9pwh0dC8Hx_"
-                                    title="Complete Interview Preparation to Crack Coding Interviews | GeeksforGeeks"
+                                    title="SIG SAUER"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 ></iframe>
                             </div>

@@ -35,7 +35,7 @@ const About = () => {
           <iframe
             title="intro video"
             className="min-w-full mt-12 h-64 md:h-[450px] rounded-xl overflow-hidden"
-            src="https://www.youtube.com/embed/yrEIbh-VKwo"
+            src="https://www.youtube.com/embed/DsJ0LeCleVc?si=_1ydQJOnO5JQS1y6"
             frameborder="0"
             allow="autoplay; fullscreen"
             allowfullscreen=""

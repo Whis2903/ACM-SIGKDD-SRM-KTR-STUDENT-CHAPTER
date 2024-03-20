@@ -63,7 +63,7 @@ const Join = () => {
       const teamData = await teamDatabase.get();
       //remove all data where regComplete is false
       const teamArray = teamData.filter(
-        (team) => team.gfg.split("/")[4] === username
+        (team) => team.acm.split("/")[4] === username
       );
       console.log(teamArray[0]);
       setUserData(teamArray[0]);
@@ -104,7 +104,7 @@ const Join = () => {
                 linkedin={authorData.linkedin}
                 portfolio={authorData.website}
                 instagram={authorData.instagram}
-                gfg={authorData.gfg}
+                acm={authorData.acm}
               />
 
               <div className="flex items-center mt-4 text-gray-700 dark:text-gray-200">
@@ -142,14 +142,14 @@ const Join = () => {
 
                 <div className=" mt-4 md:mx-4 md:mt-0">
                   <h1 className="text-2xl font-medium text-gray-700 capitalize dark:text-white">
-                    My GFG Profile
+                    My acm Profile
                   </h1>
                 </div>
                 <Button
                   className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                   click={() => {
                     window.open(
-                      authorData.gfg,
+                      authorData.acm,
                       "__blank"
                     );
                   }}
