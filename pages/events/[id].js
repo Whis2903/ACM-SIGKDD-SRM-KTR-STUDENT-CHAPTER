@@ -77,7 +77,7 @@ const Event = () => {
         <div className="grid grid-cols-6 gap-4">
           <div className="col-span-full md:col-span-1">
             <div className="md:m-2 p-2 dark:bg-gray-800 bg-gray-200 rounded-lg">
-              <h2 className="text-xl font-semibold text-green-600 mx-auto text-center">
+              <h2 className="text-xl font-semibold text-purple-600 mx-auto text-center">
                 {event.when && format(new Date(event.when), "eeee, dd MMM")}
               </h2>
               <div className="flex flex-wrap justify-center capitalize">
@@ -93,7 +93,7 @@ const Event = () => {
                 }
               </div>
               <Button
-                className="bg-green-600  hover:bg-green-700 mt-5  w-full"
+                className="bg-purple-600  hover:bg-purple-700 mt-5  w-full"
                 click={() => {
                   if(event.link){
                     window.open(event.link, "_blank");
@@ -108,7 +108,7 @@ const Event = () => {
             </div>
           </div>
           <div className="col-span-full md:col-span-4">
-            <div className="border-l-[2px] border-green-500 pl-1">
+            <div className="border-l-[2px] border-purple-500 pl-1">
               <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl my-4 dark:text-white">
                 {event?.title}
               </h1>

@@ -70,11 +70,11 @@ const TeamHome = () => {
       <section className="min-h-screen bg-white dark:bg-gray-900">
         <div className="container px-6 py-10 mx-auto">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
-            Our <span className="text-green-500">GFGSC-GCET</span> Team
+            Our <span className="text-purple-500">ACM SIGKDD</span> Team
           </h1>
 
           <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-            Our GFGSC-GCET team is dynamic with a passion for management and depth in their respective
+            Our ACM SIGKDD Student Chapter team is dynamic with a passion for management and depth in their respective
 areas of expertise. Our dedicated team bring energy, fresh ideas and pride to their work.
           </p>
 

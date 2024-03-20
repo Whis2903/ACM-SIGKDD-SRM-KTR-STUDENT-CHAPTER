@@ -44,13 +44,13 @@ const DateField = ({
           type="text"
           // ref={dateRef}
           placeholder={placeholder}
-          className={`hidden col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
+          className={`hidden col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
           disabled={disabled}
         />
         <input
           type="date"
           placeholder={placeholder}
-          className={`col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
+          className={`col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
           disabled={disabled}
           onChange={(e) => {
             setDate(e.target.value);
@@ -61,7 +61,7 @@ const DateField = ({
         <input
           type="time"
           placeholder={placeholder}
-          className={`col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
+          className={`col-span-full w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed`}
           disabled={disabled}
           onChange={(e) => {
             setTime(e.target.value);

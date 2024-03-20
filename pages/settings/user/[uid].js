@@ -36,7 +36,7 @@ const AdminUserSettings = () => {
       <h1 className="py-6 text-3xl font-semibold text-gray-800 lg:text-4xl dark:text-white">
         Editing Profile of <br/>
         <span
-          className="text-green-500"
+          className="text-purple-500"
         >
           {memberData.displayName}
         </span>

@@ -127,7 +127,7 @@ const Complete = () => {
         <ThemeChanger />
         <div className="container min-h-screen px-6 py-10 mx-auto">
           <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
-            Complete your <span className="text-green-500">Profile</span>
+            Complete your <span className="text-purple-500">Profile</span>
           </h1>
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-col justify-center items-center w-full max-w-xl m-auto m-5 p-2 border-2 border-gray-100 dark:border-gray-800 border rounded-lg">
@@ -214,7 +214,7 @@ const Complete = () => {
                           />
                           <div className="col-span-full">
                             <label className="text-sm font-bold">Email</label>
-                            <div className="h-fit w-full cursor-not-allowed bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed">
+                            <div className="h-fit w-full cursor-not-allowed bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed">
                               {memberData.email}
                             </div>
                           </div>
@@ -330,7 +330,7 @@ const Complete = () => {
                       </fieldset>
                       <Button
                         type="submit"
-                        className="bg-green-700 w-full focus:outline-green-600"
+                        className="bg-purple-700 w-full focus:outline-purple-600"
                         click={(e) => {
                           warnForm(errors);
                         }}

@@ -136,7 +136,7 @@ const Join = () => {
           <div className="flex flex-col xl:mx-5 col-span-4">
             <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
               <div className="md:flex md:items-start md:-mx-4 md:justify-between">
-                <span className="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-green-500">
+                <span className="inline-block p-2 text-purple-500 bg-purple-100 rounded-xl md:mx-4 dark:text-white dark:bg-purple-500">
                   <SiGeeksforgeeks className="text-2xl" />
                 </span>
 
@@ -146,7 +146,7 @@ const Join = () => {
                   </h1>
                 </div>
                 <Button
-                  className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                  className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                   click={() => {
                     window.open(
                       authorData.gfg,

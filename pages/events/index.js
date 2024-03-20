@@ -85,7 +85,7 @@ const Events = () => {
       <div className="min-h-screen container px-6 py-10 mx-auto">
         <h1 className="px-6 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
           <span
-            className="text-green-500"
+            className="text-purple-500"
             title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
           >
             Upcoming
@@ -103,7 +103,7 @@ const Events = () => {
         <div className="flex justify-between flex-col px-6">
           <h1 className="py-6 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
             <span
-              className="text-green-500"
+              className="text-purple-500"
               title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
             >
               Past
@@ -137,7 +137,7 @@ const Events = () => {
                     />
 
                     <div className="mt-8">
-                      <span className="text-green-500 uppercase">{event?.category}</span>
+                      <span className="text-purple-500 uppercase">{event?.category}</span>
 
                       <h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
                         {event?.title}
@@ -160,7 +160,7 @@ const Events = () => {
                             {format(new Date(event?.when), 'MMMM dd, yyyy')}
                           </p>
                         </div>
-                        <Button click={()=>{window.open(`/events/${event?.id}`,'__blank')}} className="inline-block text-green-500 bg-green-700 hover:bg-green-600">
+                        <Button click={()=>{window.open(`/events/${event?.id}`,'__blank')}} className="inline-block text-purple-500 bg-purple-700 hover:bg-purple-600">
                           Know More
                         </Button>
                       </div>

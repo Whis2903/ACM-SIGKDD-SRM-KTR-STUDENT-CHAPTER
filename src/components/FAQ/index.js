@@ -27,7 +27,7 @@ const Single = (props) => {
            <RiSubtractFill size={25}/>
           </span>
                 ) : (
-                    <span className="text-green-500 bg-opacity-30 bg-green-600 rounded-full">
+                    <span className="text-purple-500 bg-opacity-30 bg-purple-600 rounded-full">
           <RiAddFill size={25}/>
           </span>
                 )}

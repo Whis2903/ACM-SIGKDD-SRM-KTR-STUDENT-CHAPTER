@@ -31,7 +31,7 @@ const MessageBox = () => {
             <div className="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
               <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
                 Welcome to{" "}
-                <span className="text-green-700 dark:text-green-600">
+                <span className="text-purple-700 dark:text-purple-600">
                   GFGSC-GCET
                 </span>
               </h2>

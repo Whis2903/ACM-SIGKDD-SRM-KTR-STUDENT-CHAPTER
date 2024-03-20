@@ -106,13 +106,13 @@ const Slides = () => {
           />
 
           <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-            <h3 className="mt-2 text-lg font-medium text-green-600">
+            <h3 className="mt-2 text-lg font-medium text-purple-600">
               {Events[current]?.category}
             </h3>
             <h1 className="text-2xl font-semibold text-gray-800 dark:text-white xl:text-4xl">
               {Events[current]?.title}
             </h1>
-            <p className="text-lg font-semibold uppercase text-green-600 ">
+            <p className="text-lg font-semibold uppercase text-purple-600 ">
               {
                 //format date
                 Events[current] &&
@@ -126,7 +126,7 @@ const Slides = () => {
 
             {Events[current]?.where && (
               <>
-                <h3 className="mt-6 text-lg font-medium text-green-600">
+                <h3 className="mt-6 text-lg font-medium text-purple-600">
                   Location
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 italic">
@@ -138,7 +138,7 @@ const Slides = () => {
               click={() => {
                 window.open(`/events/${Events[current].id}`, "__blank");
               }}
-              className="mt-5 bg-green-700 hover:bg-green-600"
+              className="mt-5 bg-purple-700 hover:bg-purple-600"
             >
               Know More
             </Button>

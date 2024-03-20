@@ -107,16 +107,16 @@ const EventTab = ({loadEvent}) => {
   return (
     <div>
       <div>
-        <div className="grid grid-cols-6 gap-2 p-2 border-2 border-green-700 rounded-lg shadow-sm dark:bg-gray-800 bg-gray-100 my-5">
+        <div className="grid grid-cols-6 gap-2 p-2 border-2 border-purple-700 rounded-lg shadow-sm dark:bg-gray-800 bg-gray-100 my-5">
           <div className="col-span-full py-1 flex items-center justify-center text-lg capitalize w-full rounded-md font-bold">
             {copyMsg}
           </div>
 
-          <div className="col-span-5 truncate w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 select-none">
+          <div className="col-span-5 truncate w-full bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 select-none">
             {eventLink}
           </div>
           <div
-            className="col-span-1 flex items-center justify-center text-2xl bg-green-600 hover:bg-green-500 active:bg-green-600 w-full rounded-md cursor-pointer text-white "
+            className="col-span-1 flex items-center justify-center text-2xl bg-purple-600 hover:bg-purple-500 active:bg-purple-600 w-full rounded-md cursor-pointer text-white "
             onClick={copyToClipboard}
           >
             <RiClipboardFill />
@@ -168,7 +168,7 @@ const EventTab = ({loadEvent}) => {
                         type="button"
                         onClick={handleFileClick}
                         id="image"
-                        className="px-2 py-1 w-fit border text-sm rounded-md border-gray-500 dark:border-gray-100 flex flex-row items-center space-x-1 shadow-sm focus:outline-none focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:bg-gray-700 dark:text-gray-100"
+                        className="px-2 py-1 w-fit border text-sm rounded-md border-gray-500 dark:border-gray-100 flex flex-row items-center space-x-1 shadow-sm focus:outline-none focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:bg-gray-700 dark:text-gray-100"
                       >
                         Change Event Image
                         {uploading ? (
@@ -269,7 +269,7 @@ const EventTab = ({loadEvent}) => {
 
               <Button
                 type="submit"
-                className="bg-green-700 w-full focus:outline-green-600 flex flex-row items-center justify-center"
+                className="bg-purple-700 w-full focus:outline-purple-600 flex flex-row items-center justify-center"
                 click={(e) => {
                   warnForm(errors);
                 }}

@@ -116,8 +116,8 @@ const BlogPage = () => {
                     <div className="w-full">
                         <div className="flex flex-col items-center justify-between gap-5">
                             <div className={'flex flex-row justify-between w-full'}>
-                                <h1 className="text-xl font-bold text-green-500 md:text-4xl">Posts</h1>
-                                <span className={'px-5 py-2 bg-green-500 hover:bg-green-600 cursor-pointer text-lg font-semibold rounded-lg'} onClick={()=>{router.push('/blogs/new')}}>
+                                <h1 className="text-xl font-bold text-purple-500 md:text-4xl">Posts</h1>
+                                <span className={'px-5 py-2 bg-purple-500 hover:bg-purple-600 cursor-pointer text-lg font-semibold rounded-lg'} onClick={()=>{router.push('/blogs/new')}}>
                                     Create Post
                                 </span>
                             </div>

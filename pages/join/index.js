@@ -124,7 +124,7 @@ const Join = () => {
         <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">
           Join{" "}
           <span
-            className="text-green-600"
+            className="text-purple-600"
             title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
           >
             GFGSC-GCET
@@ -193,7 +193,7 @@ const Join = () => {
           {user != null && (
             <>
               <Button
-                className="bg-green-700 hover:bg-green-600"
+                className="bg-purple-700 hover:bg-purple-600"
                 click={() => {
                   router.push("/join/complete");
                 }}

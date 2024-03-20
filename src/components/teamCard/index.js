@@ -41,7 +41,7 @@ const TeamCard = (props) => {
 
   return (
     <Link href={"/team/" + gfgUsername +'?uid='+props.member.uid} as={"/team/" + gfgUsername} passHref target="_blank">
-      <div className=" px-8 pt-6 pb-2 duration-300 transform border cursor-pointer rounded-xl group dark:border-gray-700 hover:border-green-500 hover:dark:border-green-500">
+      <div className=" px-8 pt-6 pb-2 duration-300 transform border cursor-pointer rounded-xl group dark:border-gray-700 hover:border-purple-500 hover:dark:border-purple-500">
         <div className="flex flex-col sm:-mx-4 sm:flex-row">
           <img
             className="flex-shrink-0 object-cover w-20 h-20 rounded-full sm:mx-4 ring-2 ring-gray-300"

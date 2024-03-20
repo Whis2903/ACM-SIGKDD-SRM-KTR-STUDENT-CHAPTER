@@ -63,7 +63,7 @@ const LeadSection = () => {
                 })}
               </div>
               <Button
-                className="bg-green-700 mx-auto mt-16"
+                className="bg-purple-700 mx-auto mt-16"
                 click={() => {
                   router.push("/team");
                 }}

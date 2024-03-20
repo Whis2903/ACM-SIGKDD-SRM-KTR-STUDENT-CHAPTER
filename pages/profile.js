@@ -108,7 +108,7 @@ const Join = () => {
             <div className="grid grid-cols-1 gap-5 mx-5 mt-5 xl:mt-0 xl:gap-5 lg:grid-cols-2 h-fit">
               <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700">
                 <div className="md:flex md:items-start md:-mx-4 ">
-                  <span className="inline-block p-2 text-green-500 bg-green-100 rounded-xl md:mx-4 dark:text-white dark:bg-green-500">
+                  <span className="inline-block p-2 text-purple-500 bg-purple-100 rounded-xl md:mx-4 dark:text-white dark:bg-purple-500">
                     <FaWhatsapp className="text-2xl" />
                   </span>
 
@@ -123,7 +123,7 @@ const Join = () => {
                     </p>
                   </div>
                   <Button
-                    className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                    className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       window.open(
                         `https://chat.whatsapp.com/L8b1NWYkAj8Kf7G8mI1xGM`,
@@ -154,7 +154,7 @@ const Join = () => {
                     </p>
                   </div>
                   <Button
-                    className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                    className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       alert("coming soo");
                     }}
@@ -180,7 +180,7 @@ const Join = () => {
                     </p>
                   </div>
                   <Button
-                    className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                    className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       window.open(
                         `https://www.instagram.com/ACM SIGKDD SRM KTR`,
@@ -210,7 +210,7 @@ const Join = () => {
                     </p>
                   </div>
                   <Button
-                    className="bg-green-700 hover:bg-green-600 mt-4 md:mx-4 md:mt-0"
+                    className="bg-purple-700 hover:bg-purple-600 mt-4 md:mx-4 md:mt-0"
                     click={() => {
                       router.push("/events");
                     }}

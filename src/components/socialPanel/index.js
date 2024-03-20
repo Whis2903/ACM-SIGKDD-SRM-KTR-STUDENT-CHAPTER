@@ -22,7 +22,7 @@ const SocialPanel = (props) => {
           <a href={gfg} target="__blank">
             <SiGeeksforgeeks
               size={20}
-              className="ease-in-out transform transition duration-200 hover:scale-125 hover:text-green-500"
+              className="ease-in-out transform transition duration-200 hover:scale-125 hover:text-purple-500"
             />
           </a>
         )}
@@ -54,7 +54,7 @@ const SocialPanel = (props) => {
           <a href={portfolio} target="__blank">
             <RiGlobalFill
               size={20}
-              className="ease-in-out transform transition duration-200 hover:scale-125  hover:text-green-400"
+              className="ease-in-out transform transition duration-200 hover:scale-125  hover:text-purple-400"
             />
           </a>
         )}

@@ -186,7 +186,7 @@ const ProfileTab = (props) => {
                 />
                 <div className="col-span-full md:col-span-3">
                   <label className="text-sm font-bold">Email</label>
-                  <div className="h-fit w-full cursor-not-allowed bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-green-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed">
+                  <div className="h-fit w-full cursor-not-allowed bg-gray-200 dark:bg-gray-700 px-3 py-2 rounded-md focus:ring focus:ring-opacity-75 focus:ring-purple-400 dark:border-gray-700 dark:text-gray-100 outline-0 disabled:cursor-not-allowed">
                     {memberData.email}
                   </div>
                 </div>
@@ -299,7 +299,7 @@ const ProfileTab = (props) => {
           <hr className="border-gray-200 dark:border-gray-700 " />
           <Button
             type="submit"
-            className="flex flex-row justify-center items-center bg-green-700 w-full max-w-lg focus:outline-green-600 col-span-full mx-auto"
+            className="flex flex-row justify-center items-center bg-purple-700 w-full max-w-lg focus:outline-purple-600 col-span-full mx-auto"
             click={() => {
               warnForm(errors);
             }}

@@ -8,7 +8,7 @@ const InfoCard = (props) => {
     <>
       <div className="px-6 py-5 border rounded-xl border-r-gray-200 dark:border-gray-700">
         <div className="md:flex md:items-start lg:items-center md:-mx-4">
-          <span className="inline-block mt-1 lg:mt-0 p-2 text-green-500 bg-opacity-20 bg-green-600 rounded-xl md:mx-4">
+          <span className="inline-block mt-1 lg:mt-0 p-2 text-purple-500 bg-opacity-20 bg-purple-600 rounded-xl md:mx-4">
             <div className="flex items-center justify-center w-8 h-8">
               <Icon className="text-current " size={40} />
             </div>

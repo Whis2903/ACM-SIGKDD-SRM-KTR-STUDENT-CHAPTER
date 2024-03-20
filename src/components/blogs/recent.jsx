@@ -2,7 +2,7 @@ const RecentPosts = () => {
     return (
         <div className="flex flex-col bg-white px-8 py-6 mx-auto rounded-lg shadow-md">
             <div className="flex justify-center items-center">
-                <a className="px-2 py-1 bg-gray-600 text-sm text-green-100 rounded hover:bg-gray-500"
+                <a className="px-2 py-1 bg-gray-600 text-sm text-purple-100 rounded hover:bg-gray-500"
                    href="#">Laravel</a>
             </div>
             <div className="mt-4">

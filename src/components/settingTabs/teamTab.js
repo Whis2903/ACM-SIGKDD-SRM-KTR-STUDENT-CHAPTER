@@ -7,7 +7,7 @@ const TeamCard = (props) => {
   const router = useRouter();
   return (
     <div
-      className="px-12 py-4 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-green-500 group dark:border-gray-700 dark:hover:border-green-600"
+      className="px-12 py-4 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-purple-500 group dark:border-gray-700 dark:hover:border-purple-600"
       onClick={() => {
         window.open("/settings/user/" + props.member.uid, "__blank");
       }}

@@ -38,7 +38,7 @@ const ContactForm = () => {
       <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
         <a
           href="#"
-          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-green-200 dark:hover:bg-green-600"
+          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-purple-200 dark:hover:bg-purple-600"
         >
           <svg
             className="w-5 h-5"
@@ -60,7 +60,7 @@ const ContactForm = () => {
           rel="noreferrer"
           target="_blank"
           href="tel:+918178592355"
-          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-green-200 dark:hover:bg-green-600"
+          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-purple-200 dark:hover:bg-purple-600"
         >
           <svg
             className="w-5 h-5"
@@ -78,7 +78,7 @@ const ContactForm = () => {
           rel="noreferrer"
           target="_blank"
           href="https://www.instagram.com/gfgsc-gcet"
-          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-green-200 dark:hover:bg-green-600"
+          className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-300 transform rounded-md dark:text-gray-200 hover:bg-purple-200 dark:hover:bg-purple-600"
         >
           <FaInstagram  className="text-lg"/>
 

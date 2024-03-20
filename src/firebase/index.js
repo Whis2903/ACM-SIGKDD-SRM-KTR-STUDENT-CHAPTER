@@ -5,14 +5,14 @@ import { getDatabase } from "firebase/database";
 import { getFirestore } from "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyBNahzl_RTWHB_O4D1srT1a2366fHmsdgg",
-  authDomain: "gfgsc-gcet.firebaseapp.com",
-  databaseURL: "https://gfgsc-gcet-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "gfgsc-gcet",
-  storageBucket: "gfgsc-gcet.appspot.com",
-  messagingSenderId: "564569297401",
-  appId: "1:564569297401:web:9c6e32695856f8d14fed28",
-  measurementId: "G-PYTT0S74V0"
+  apiKey: "AIzaSyBGmcQMpkrpBMf9SFfuqvfFwMLExfGC5SA",
+  authDomain: "acm-sigkdd-srm-ktr.firebaseapp.com",
+  databaseURL: "https://acm-sigkdd-srm-ktr.asia-southeast1.firebasedatabase.app",
+  projectId: "acm-sigkdd-srm-ktr",
+  storageBucket: "acm-sigkdd-srm-ktr.appspot.com",
+  messagingSenderId: "306151762770",
+  appId: "1:306151762770:web:c28aa9eb3f0504cc2d688b",
+  measurementId: "G-4Q7XHKPT99"
 };
 
 export const app = initializeApp(config);

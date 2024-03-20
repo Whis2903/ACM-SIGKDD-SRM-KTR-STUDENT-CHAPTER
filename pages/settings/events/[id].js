@@ -41,7 +41,7 @@ const Event = () => {
         <div className="grid grid-cols-6 gap-4">
           <div className="col-span-full md:col-span-2">
             <div className="md:m-2 p-2 dark:bg-gray-800 bg-gray-200 rounded-lg">
-              <h2 className="text-xl font-semibold text-green-600 mx-auto text-center">
+              <h2 className="text-xl font-semibold text-purple-600 mx-auto text-center">
                 Registered Members
               </h2>
             </div>

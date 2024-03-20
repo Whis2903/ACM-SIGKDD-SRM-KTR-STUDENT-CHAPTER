@@ -264,7 +264,7 @@ const CreateNewPost = () => {
                                     <h1 className={'text-2xl font-bold'}>Cover Image</h1>
                                     <input type={"text"} className={'border-2 w-full px-4 py-2 bg-gray-200 dark:bg-gray-700 dark:border-gray-700 rounded-md border-gray-200'}  placeholder={'insert your image url (use imgbb.com)'} onChange={(e)=>{setCoverImage(e.target.value)}} value={coverImage}/>
                                     <p className={''}>
-                                        Use <a className={'text-green-500 underline'} target={'__blank'} href={"https://imgbb.com/upload"}>ImageBB.com</a> to upload your image and paste the image url, <i>check url before pasting</i>
+                                        Use <a className={'text-purple-500 underline'} target={'__blank'} href={"https://imgbb.com/upload"}>ImageBB.com</a> to upload your image and paste the image url, <i>check url before pasting</i>
                                     </p>
                                 </div>
                                 <hr className={"border-gray-200 dark:border-gray-700"}/>
@@ -290,7 +290,7 @@ const CreateNewPost = () => {
                                             All Changes Saved
                                         </h1>
                                     }
-                                    <span className={'text-md p-2 flex flex-row gap-3 justify-center items-center rounded-lg hover:bg-green-500 bg-gray-100 dark:bg-gray-700 dark:hover:bg-green-500 cursor-pointer'}>
+                                    <span className={'text-md p-2 flex flex-row gap-3 justify-center items-center rounded-lg hover:bg-purple-500 bg-gray-100 dark:bg-gray-700 dark:hover:bg-purple-500 cursor-pointer'}>
                                         {
                                             saving ?
                                                 <span className={'flex flex-row items-center gap-2'}><FaSpinner className={'animate-spin'}/> Saving</span>
@@ -323,7 +323,7 @@ const CreateNewPost = () => {
                                         }
                                     </h1>
 
-                                    <span className={'text-md p-2 flex flex-row gap-3 justify-center items-center rounded-lg hover:bg-green-500 bg-gray-100 dark:bg-gray-700 dark:hover:bg-green-500 cursor-pointer'}>
+                                    <span className={'text-md p-2 flex flex-row gap-3 justify-center items-center rounded-lg hover:bg-purple-500 bg-gray-100 dark:bg-gray-700 dark:hover:bg-purple-500 cursor-pointer'}>
                                         {
                                             publishing ?
                                                 <span className={'flex flex-row items-center gap-2'}><FaSpinner className={'animate-spin'}/> Publishing</span>

@@ -24,7 +24,7 @@ const About = () => {
           <div className="prose dark:prose-invert">
             <h1 className="">
               Know more <br /> about{" "}
-              <span className="text-green-500">ACM SIGKDD SRM KTR</span>
+              <span className="text-purple-500">ACM SIGKDD SRM KTR</span>
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident

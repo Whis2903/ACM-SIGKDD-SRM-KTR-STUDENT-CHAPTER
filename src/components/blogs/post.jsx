@@ -42,7 +42,7 @@ const BlogPost = ({ data }) => {
                 <p className="mt-2 text-gray-600 dark:text-gray-300 line-clamp-3">{data.body}</p>
             </div>
             <div className="flex justify-between items-center mt-4">
-                <a className="text-green-500 hover:underline" href={`/blogs/${author?.gfg.split("/")[4]}/${data.blogId}`}>Read more</a>
+                <a className="text-purple-500 hover:underline" href={`/blogs/${author?.gfg.split("/")[4]}/${data.blogId}`}>Read more</a>
                 <div>
                     <a className="flex items-center" href={`/blogs/${author?.gfg.split("/")[4]}`}>
                         <img className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block" src={data?.photoURL}
