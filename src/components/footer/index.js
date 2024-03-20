@@ -14,7 +14,13 @@ const Footer = () => {
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://raw.githubusercontent.com/ACM-SIGKDD-SRM-KTR-STUDENT-CHAPTER/website/main/public/logo.png"
+              height={200} width={200}
+                src="https://i.pinimg.com/originals/fa/81/90/fa819030167297c5ba3184d72b41d41e.png"
+                alt="ACM SIGKDD LOGO"
+              />
+              <img
+              height={200} width={120}
+                src="https://pbs.twimg.com/profile_images/1621016161/BIG_400x400.png"
                 alt="ACM SIGKDD LOGO"
               />
             </div>
