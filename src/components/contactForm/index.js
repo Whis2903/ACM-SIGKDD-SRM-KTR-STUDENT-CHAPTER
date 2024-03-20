@@ -82,7 +82,7 @@ const ContactForm = () => {
         >
           <FaInstagram  className="text-lg"/>
 
-          <span className="mt-2">@srmisigkdd</span>
+          <span className="mt-2">@srmsigkdd</span>
         </a>
       </div>
 
