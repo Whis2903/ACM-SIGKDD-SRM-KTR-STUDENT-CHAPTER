@@ -11,7 +11,7 @@ const LandingSection = (props) => {
   return (
     <>
       <section className="landing-section section h-100vh">
-          <div className="container">
+          <div className="container" style={{marginTop:"10px"}}>
             <div className="gbc1"></div>
             <div className="row justify-content-between mt-3">
               <div className="col-3 ">
@@ -76,7 +76,7 @@ const LandingSection = (props) => {
               </div>
               <div className="col-3">
                 <NavLink to={props.link} className="join-button btn">
-                  Join the community
+                  Check out our Team
                 </NavLink>
               </div>
               <div className="col-2 ml-auto">

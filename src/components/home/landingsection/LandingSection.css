@@ -127,6 +127,7 @@
     position: absolute;
     left: calc(50% - 130px);
     font-size: 18px;
+    margin-top: -20px;
   }
 
   .dashed-line-divider,
