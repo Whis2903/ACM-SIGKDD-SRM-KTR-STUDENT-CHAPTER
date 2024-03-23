@@ -24,6 +24,6 @@
     white-space: break-word; /* Prevent text from wrapping onto multiple lines */
   }
   .carousel-item {
-    height: 300px; /* Adjust the height as needed */
+    height: 295px; /* Adjust the height as needed */
   }
 }

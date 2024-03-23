@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { NavLink } from "react-router-dom";
 import CreatorCard from "./CreatorCard";
@@ -9,6 +9,19 @@ import Vishal from "../../assets/Developers/vishal.png";
 
 
 function Footer() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <>
       <footer>
@@ -65,7 +78,7 @@ function Footer() {
                 </div>
                 <div className="col-lg-3">
                   <h3 className="footer-section-title" style={{color:"white",fontWeight:"bold"}}>Made By</h3>
-                  <Carousel className="footer-carousel" fade indicators={false}>
+                  <Carousel className="footer-carousel" fade indicators={false} controls={false}>
                   <Carousel.Item>
                           <CreatorCard
                             img={Verma}
@@ -91,8 +104,8 @@ function Footer() {
                 </div>
               </div>
               <div className="copyright text-center">
-                <p style={{color:"white",fontWeight:"bold",marginRight:"170px"}}>
-                  &copy; 2024 All rights reserved by
+                <p style={{ color: "white", fontWeight: "bold", marginRight: isMobile ? "0px" : "170px", fontSize:"12px" }}>
+                  &copy; {isMobile ? "2024" : "2024 All rights reserved by"}
                   <NavLink to="#"> SIGKDD SRM KTR Student Chapter </NavLink>
                 </p>
               </div>
