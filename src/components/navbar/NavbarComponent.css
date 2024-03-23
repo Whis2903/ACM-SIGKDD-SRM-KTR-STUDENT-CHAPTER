@@ -59,7 +59,7 @@ textarea {
     font-size: 0.8rem;
   }
   .navbar-collapse {
-    background-color: var(--accent-color) !important;
+    background-color: white !important;
     text-align: center;
     border-radius: 0px 0px 22px 22px;
   }
