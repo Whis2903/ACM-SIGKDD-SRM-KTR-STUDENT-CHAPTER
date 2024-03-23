@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { NavLink } from "react-router-dom";
 import CreatorCard from "./CreatorCard";
 import "./Footer.css";
-import Verma from "../../assets/Developers/aditya.png";
+import Verma from "../../assets/CoreMembers/Aditya.png";
 import Gupta from "../../assets/Developers/gupta.png";
 import Vishal from "../../assets/Developers/vishal.png"; 
 
