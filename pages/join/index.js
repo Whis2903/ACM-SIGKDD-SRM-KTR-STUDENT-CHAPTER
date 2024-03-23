@@ -127,12 +127,12 @@ const Join = () => {
             className="text-purple-600"
             title="Geeks for Geeks Student Club of Galgotas College of Engineering & Technology"
           >
-            GFGSC-GCET
+            ACM SIGKDD SRM KTR
           </span>{" "}
           Team
         </h1>
         <p className="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-          Join GFGSC-GCET team as a member to explore <br />new opportunities, technical events, webinars and mentorship.<br /><br/>
+          Join ACM SIGKDD SRM KTR team as a member to explore <br />new opportunities, technical events, webinars and mentorship.<br /><br/>
           Use your Google Account to continue registration
           <br />
           which is free of cost

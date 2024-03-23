@@ -84,7 +84,7 @@ export const adminUsereditformSchema = yup.object().shape({
     .email()
     .required("College Email is required")
     .matches(
-      /@galgotiacollege.edu$/,
+      /@srmist.edu$/,
       "use your college email ( @galgotiacollege.edu )"
     ),
 

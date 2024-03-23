@@ -1,6 +1,6 @@
 export const sendResponse = (content, category) => {
   const discord = {
-    content: `You got a new Message form GFG Website`,
+    content: `You got a new Message form ACM SIGKDD SRM KTR Website`,
     embeds: [
       {
         title: category,

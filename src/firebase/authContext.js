@@ -47,7 +47,7 @@ export const UserContextProvider = (props) => {
                     bio: '',
                     learning: '',
                     skills: '',
-                    gfg: '',
+                    acm: '',
                     github: '',
                     linkedin: '',
                     website: '',

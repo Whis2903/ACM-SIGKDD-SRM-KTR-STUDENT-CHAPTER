@@ -37,12 +37,12 @@ const Slides = () => {
   // const Events = [
   //   {
   //     name: "Guide to Hacktober",
-  //     date: "22 Oct",
-  //     about:
-  //       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora dolo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora dolo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad tempora dolo",
+  //     when: "2024-10-22T00:00:00Z", // ISO 8601 format
+  //     about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit...",
   //     tldr: "Want to know about Hacktoberfest? Join us for a free session",
   //   }
   // ];
+  
 
   const increment = () => {
     // access the current state value

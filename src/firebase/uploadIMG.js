@@ -12,7 +12,7 @@ export const uploadIMG = async (file, path) => {
   const storageRef = ref(storage, path);
   const snapshot = await uploadBytes(storageRef, file);
   const url = await getDownloadURL(snapshot.ref);
-  // change https://firebasestorage.googleapis.com/ to https://ik.imagekit.io/GFGscGCET/
-  const result = url.replace("https://firebasestorage.googleapis.com/", "https://ik.imagekit.io/GFGscGCET/");
+  // change https://firebasestorage.googleapis.com/ to https://ik.imagekit.io/srmsigkdd/
+  const result = url.replace("https://firebasestorage.googleapis.com/", "https://ik.imagekit.io/srmsigkdd/");
   return result;
 };

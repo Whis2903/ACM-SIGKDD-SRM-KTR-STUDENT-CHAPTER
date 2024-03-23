@@ -288,9 +288,9 @@ const Complete = () => {
                         <div className="grid grid-cols-6 gap-4 col-span-full lg:col-span-3">
                           <TextField
                             spanClass="col-span-full"
-                            label="GFG Profile URL"
-                            name="gfg"
-                            id="gfg"
+                            label="acm Profile URL"
+                            name="acm"
+                            id="acm"
                             placeholder="https://auth.geeksforgeeks.org/user/...."
                             type="text"
                           />
