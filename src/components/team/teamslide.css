@@ -7,3 +7,17 @@
   display: inline-block;
   min-width: max-content; /* Adjust based on your design */
 }
+@media (max-width: 576px) {
+  .eventname {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px; /* Adjust padding for smaller screens */
+    display: inline-block;
+    min-width: auto; /* Remove min-width for better responsiveness */
+    max-width: 100%; /* Ensure element takes up full width */
+    overflow: hidden; /* Hide any overflowed content */
+    white-space: break-word; /* Prevent text from wrapping onto multiple lines */
+  }
+}
