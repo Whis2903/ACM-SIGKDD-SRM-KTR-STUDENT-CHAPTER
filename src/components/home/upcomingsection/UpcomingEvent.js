@@ -6,7 +6,7 @@ import TimeStamp from "./TimeStamp";
 const UpcomingEvent = () => {
   return (
     <>
-      <section className="section h-100vh" id="upcomingevents">
+      <section className="section h-100vh" id="upcomingevents" style={{marginBottom:"20px"}}>
         <div className="container">
           <div className="bbc1"></div>
           <div className="row">

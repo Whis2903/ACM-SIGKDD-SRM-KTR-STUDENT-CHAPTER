@@ -2,7 +2,7 @@
   background-color: #000000 !important;
   color: var(--primary-color) !important;
   border-radius: 15px;
-  padding: 35px 35px 35px 35px;
+  padding: 35px;
   margin-bottom: 20px;
   /* Add box-shadow for the glowing effect */
   box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
