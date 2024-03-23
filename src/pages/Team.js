@@ -8,7 +8,19 @@ import Sample from "../assets/CoreMembers/Sample.png";
 import Sahil from "../assets/CoreMembers/Sahil.png";
 import Aditya from "../assets/CoreMembers/Aditya.png";
 import Kalpana from "../assets/CoreMembers/kalpana.png";
+import Shanky from "../assets/CoreMembers/Shanky.png"
+import Dheeraj from "../assets/CoreMembers/Dheeraj.jpg"
+import Ayush from "../assets/CoreMembers/Ayush.png"
+import Yamika from "../assets/CoreMembers/yamika.jpeg"
+import Medha from "../assets/CoreMembers/medha.jpeg"
+import Nayana from "../assets/CoreMembers/nayana.jpeg"
+import Vaibhav from "../assets/CoreMembers/vaibhav.jpeg"
+import Krishna from "../assets/CoreMembers/krishna.jpeg"
+import Saptarishi from "../assets/CoreMembers/saptrishi.jpeg"
+import Himanshu from "../assets/CoreMembers/himanshu.jpeg"
 import PCKar from "../assets/CoreMembers/drpckar.jpeg"
+import Vishal from "../assets/Developers/vishal.png"
+import Gupta from "../assets/Developers/gupta.png"
 function Team() {
   return (
     <>
@@ -119,6 +131,34 @@ function Team() {
                           linkedinUrl="https://www.linkedin.com/in/sahil-adhikari-57b445250/"
                           githubUrl="https://github.com/sahilopl"
                         />
+                        <ProfileCard
+                          img={Gupta}
+                          name="Aditya Gupta"
+                          role="Web Master"
+                          linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                        />
+                        <ProfileCard
+                          img={Yamika}
+                          name="Yamika Chauhan"
+                          role="Secretary"
+                          linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                        />
+                        <ProfileCard
+                          img={Medha}
+                          name="Medha "
+                          role="Treasurer"
+                          linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                        />
+                        <ProfileCard
+                          img={Vaibhav}
+                          name="Vaibhav Singh"
+                          role="Membership Chairman "
+                          linkedinUrl="https://www.linkedin.com/in/"
+                          githubUrl="https://github.com/ADITYAVOFFICIAL/"
+                        />
                       </>
                     }
                   />
@@ -129,11 +169,18 @@ function Team() {
                     content={
                       <>
                         <ProfileCard
-                          img={Sample}
-                          name="Sample"
+                          img={Vishal}
+                          name="Vishal Mohan Nair "
                           role="R&D Head"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/"
+                          linkedinUrl="https://www.linkedin.com/in/vishal-mohan-nair-6130a1177/"
+                          githubUrl="https://github.com/Whis2903"
+                        />
+                        <ProfileCard
+                          img={Saptarishi}
+                          name="Saptarishi Sarkar"
+                          role="R&D Lead"
+                          linkedinUrl="https://www.linkedin.com/in/saptarishi-sarkar-b9813424b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          githubUrl="https://github.com/Saptarishi-S"
                         />
                       </>
                     }
@@ -166,11 +213,17 @@ function Team() {
                     content={
                       <>
                         <ProfileCard
-                          img={Sample}
-                          name="Sample"
+                          img={Dheeraj}
+                          name="Dheeraj Sharma"
                           role="Creatives Head"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/"
+                          linkedinUrl="https://www.linkedin.com/in/dheeraj-sharma-97251120b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                          githubUrl="https://github.com/dheeraj5988"
+                        />
+                        <ProfileCard
+                          img={ Nayana}
+                          name="Nayana Dinesh"
+                          role="Creatives Lead"
+                          linkedinUrl="https://www.linkedin.com/in/nayana-dinesh-101905289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         />
                       </>
                     }
@@ -182,11 +235,25 @@ function Team() {
                     content={
                       <>
                         <ProfileCard
+                          img={Ayush}
+                          name="Ayush Panwar"
+                          role="Corporate Head"
+                          linkedinUrl="https://www.linkedin.com/in/ayush-panwar-697639251/"
+                          githubUrl="https://github.com/AyushPanwar0705"
+                        />
+                         <ProfileCard
                           img={Sample}
-                          name="Sample"
+                          name="Ansh Semwal"
                           role="Corporate Head"
                           linkedinUrl="https://www.linkedin.com/in/"
                           githubUrl="https://github.com/"
+                        />
+                         <ProfileCard
+                          img={Krishna}
+                          name="Krishna Mahajan "
+                          role="Corporate Lead"
+                          linkedinUrl="https://www.linkedin.com/in/krishna-mahajan8764?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                          githubUrl="https://github.com/KRISHNA140504"
                         />
                       </>
                     }
@@ -198,11 +265,17 @@ function Team() {
                     content={
                       <>
                         <ProfileCard
-                          img={Sample}
-                          name="Sample"
+                          img={Shanky}
+                          name="Adityasankar"
                           role="Web/App Dev Head"
-                          linkedinUrl="https://www.linkedin.com/in/"
-                          githubUrl="https://github.com/"
+                          linkedinUrl="https://www.linkedin.com/in/adityasankar-sengupta/"
+                          githubUrl="https://github.com/adityasankar5"
+                        />
+                        <ProfileCard
+                          img={Himanshu}
+                          name="Himanshu Sharma"
+                          role="Web/App Dev Lead"
+                          linkedinUrl="https://www.linkedin.com/in/himanshuexe/"
                         />
                       </>
                     }

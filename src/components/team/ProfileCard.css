@@ -10,7 +10,7 @@
 .custom-card:hover {
   background-color: var(--secondary-color);
   color: var(--accent-color);
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 
 .custom-card:hover > .card-body > .card-title,

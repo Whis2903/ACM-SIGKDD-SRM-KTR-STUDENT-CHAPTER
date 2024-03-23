@@ -7,7 +7,11 @@ import "./teamslide.css";
 function TeamCarousel() {
   return (
     <section className="section">
+<<<<<<< HEAD
+      <div className="container" style={{ marginTop: "20px" }}>
+=======
       <div className="container" style={{ marginTop: "80px" }}>
+>>>>>>> bcc0d8b2108a69f725d789383bbe94488319df7f
         <div className="row justify-content-center">
           <div className="col-sm-5 col-lg-9 w-100vw">
             <Carousel fade interval={5000} slide className="carousel-glow">
