@@ -1,0 +1,9 @@
+.eventname {
+  font-weight: bold;
+  background-color: black;
+  color: white; /* Ensuring text color contrasts with the background */
+  border-radius: 25px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  display: inline-block;
+  min-width: max-content; /* Adjust based on your design */
+}
