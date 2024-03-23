@@ -45,7 +45,7 @@ function JoinCommunity() {
                   <i className="bi bi-discord"></i> Join Discord
                 </a>
               </li> */}
-              <li className="list-inline-item">
+              <li className="list-inline-item" style={{marginBottom:"10px"}}>
                 <a
                   className="btn btn-primary"
                   style={{
@@ -55,19 +55,19 @@ function JoinCommunity() {
                   }}
                   href="https://www.instagram.com/srmsigkdd"
                 >
-                  <i className="bi bi-instagram"></i> Follow Instagram
+                  <i className="bi bi-instagram"></i> Follow us on Instagram
                 </a>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item" style={{marginBottom:"10px"}}>
                 <a
                   className="btn btn-primary"
                   style={{ background: "#1DA1F2" }}
                   href="https://www.linkedin.com/company/acmsigkddsrm"
                 >
-                  <i className="bi bi-linkedin"></i> Follow LinkedIn
+                  <i className="bi bi-linkedin"></i> Follow us on LinkedIn
                 </a>
               </li>
-              <li className="list-inline-item">
+              <li className="list-inline-item" style={{marginBottom:"10px"}}>
                 <a
                   className="btn btn-primary"
                   style={{ background: "#25D366" }}
@@ -84,7 +84,7 @@ function JoinCommunity() {
                   href
                   onClick={copyLink}
                 >
-                  <i className="bi bi-link-45deg"></i> Copy Link
+                  <i className="bi bi-link-45deg"></i> Copy Joining Link
                 </a>
               </li>
             </ul>
@@ -114,7 +114,7 @@ function JoinCommunity() {
               <img
                 src={Sample}
                 alt="Sammple"
-                style={{ width: "55rem", height: "30rem" ,borderRadius:"20px",marginTop:"30px"}}
+                style={{ width: "55rem", height: "auto" ,borderRadius:"20px",marginTop:"30px",maxWidth:"100%"}}
               />
             </div>
         </div>

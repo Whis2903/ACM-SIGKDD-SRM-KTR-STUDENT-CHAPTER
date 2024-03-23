@@ -91,14 +91,18 @@
     height: 250px;
     margin: auto;
   }
+  .list-item {
+    margin: 0px;
+    word-spacing: -0.2em; /* Adjust as needed */
+  }
   .copyright {
-    white-space: nowrap; 
+    white-space: nowrap!important; 
     color: var(--secondary-color);
     text-decoration: none;
   }
   
   .copyright .active {
-    white-space: nowrap; /* Prevent text from wrapping */
+    white-space: nowrap!important; /* Prevent text from wrapping */
     color: var(--secondary-color);
     text-decoration: none;
   }  

@@ -105,8 +105,10 @@
     bottom: 0px;
   }
   .text {
-    font-size: 15px;
-  }
+    font-size: 12px;
+    text-align: left;
+    margin-left: 12px;
+}
   .past-event-section {
     margin: 20px 0px !important;
   }
