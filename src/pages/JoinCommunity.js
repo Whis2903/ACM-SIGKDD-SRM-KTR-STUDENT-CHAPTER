@@ -1,5 +1,4 @@
 import React from "react";
-import Community from "../assets/Images/community.png";
 import Sample from "../assets/Events/sample.png";
 
 function copyLink() {

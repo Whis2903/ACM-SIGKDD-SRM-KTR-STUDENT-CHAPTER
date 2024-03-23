@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import CoreTeam from "../../assets/CoreMembers/core.png";
-import principal from "../../assets/Events/sample.png";
+import first from "../../assets/Events/sample.png";
 import "./teamslide.css";
 function TeamCarousel() {
   return (
@@ -18,7 +18,7 @@ function TeamCarousel() {
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={principal} className="d-block w-100" alt="..." />
+                  <img src={first} className="d-block w-100" alt="..." />
                   <Carousel.Caption>
                     <h5 className="eventname">Our First Event</h5>
                   </Carousel.Caption>
