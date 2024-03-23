@@ -1,7 +1,7 @@
 import React from "react";
 import "./LandingSection.css";
 import { NavLink } from "react-router-dom";
-import aditya from "./images/aditya.png";
+import aditya from "../landingsection/images/aditya.png";
 import orangeLine from "./images/orange-line.png";
 import purpleLine from "./images/purple-line.png";
 import blueLine from "./images/blue-line.png";
