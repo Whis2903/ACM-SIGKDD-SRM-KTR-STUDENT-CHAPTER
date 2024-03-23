@@ -3,43 +3,25 @@
 }
 .nav-link {
   margin: 0px 35px;
-  position: relative; /* Ensure proper positioning of the line */
 }
 .navbar-brand {
   font-weight: 600;
 }
 
-.nav-link::after {
-  content: ''; /* Create a pseudo-element for the line */
-  position: absolute; /* Position the line relative to its parent */
-  bottom: -4px; /* Adjust the position of the line based on your design */
-  left: 0; /* Position the line starting from the left */
-  width: 100%; /* Make the line span the entire width of the parent */
-  height: 4px; /* Set the height of the line */
-  background-color: var(--secondary-color); /* Set the color of the line */
-  transition: width 0.3s ease; /* Add transition for smooth animation */
-  opacity: 0; /* Initially hide the line */
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active,
+.nav-link:focus {
+  border-bottom: 4px solid var(--secondary-color) !important;
 }
-
-.nav-link:hover::after {
-  width: 100%; /* Expand the line on hover */
-  opacity: 1; /* Make the line visible on hover */
-}
-
-
-
 .custom-contact {
   background-color: var(--primary-color);
   padding: 0px 10px 0px 10px;
   border-radius: 22px;
 }
-.custom-contact > .nav-link {
-  color: var(--accent-color);
-  transition: transform 0.3s ease; /* Add transition for smooth animation */
-}
-
+.custom-contact > .nav-link,
 .custom-contact > .nav-link:hover {
-  transform: scale(1.1); /* Scale up the button on hover */
+  color: var(--accent-color);
 }
 
 .navbar-collapse {

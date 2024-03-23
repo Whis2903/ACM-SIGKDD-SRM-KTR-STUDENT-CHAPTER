@@ -13,7 +13,7 @@ function ProfileCard(props) {
           <p className="card-text">{props.role}</p>
           {props.linkedinUrl && (
             <a href={props.linkedinUrl} target="_blank" rel="noreferrer" className="connect-button btn">
-              <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: "1px" }} />
+              <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: "2px" }} />
               LinkedIn
             </a>
           )}

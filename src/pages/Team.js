@@ -168,7 +168,7 @@ function Team() {
                     className="tab-pane fade show"
                     content={
                       <>
-                        <ProfileCard
+                       <ProfileCard
                           img={Vishal}
                           name="Vishal Mohan Nair "
                           role="R&D Head"
@@ -264,7 +264,7 @@ function Team() {
                     className="tab-pane fade show"
                     content={
                       <>
-                        <ProfileCard
+                         <ProfileCard
                           img={Shanky}
                           name="Adityasankar"
                           role="Web/App Dev Head"
