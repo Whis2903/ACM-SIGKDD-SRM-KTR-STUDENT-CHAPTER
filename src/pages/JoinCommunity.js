@@ -16,7 +16,7 @@ function JoinCommunity() {
   return (
     <>
       <section className="section">
-        <div className="container">
+        <div className="container" style={{marginTop:"80px"}}>
           <div className="gbc1"></div>
           <div className="row ">
             <div className="col-md-12 text-center">
