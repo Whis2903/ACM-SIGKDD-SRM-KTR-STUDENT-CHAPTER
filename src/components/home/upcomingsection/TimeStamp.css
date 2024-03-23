@@ -39,17 +39,22 @@
   color: white;
   font-size: 14px;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 10px;
   width: 75px;
-  height: 75px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-weight: bold;
 }
 .register-button:hover {
-  background-color: #088f35;
+  background-color: black;
   color: var(--accent-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(153, 102, 255, 0.8); /* Light purple color with alpha for glow effect */
+  animation: glow 0.5s infinite alternate;
+  font-weight: bold;
 }
 
 .text {
@@ -106,4 +111,12 @@
     margin: 20px 0px !important;
   }
 
+}
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px rgba(153, 102, 255, 0.8); /* Initial glow */
+  }
+  to {
+    box-shadow: 0 0 40px rgba(153, 102, 255, 0.8); /* Increased glow */
+  }
 }
