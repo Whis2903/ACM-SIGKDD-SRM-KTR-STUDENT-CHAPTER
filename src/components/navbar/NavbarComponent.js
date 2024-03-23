@@ -63,7 +63,7 @@ function NavbarComponent() {
             <img src={SRMSIGKDD} width="70" height="60" alt="srm sigkdd logo" style={{paddingRight:"10px"}}/>
             SIGKDD SRM KTR Student Chapter
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" style={{marginTop:"23px"}} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link as={NavLink} to="/home" style={{fontWeight:"bolder"}}>

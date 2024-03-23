@@ -1,8 +1,8 @@
 .custom-navbar {
-  height: 68px;
+  height: 85px;
 }
 .nav-link {
-  margin: 0px 15px;
+  margin: 0px 35px;
 }
 .navbar-brand {
   font-weight: 600;
@@ -59,9 +59,10 @@ textarea {
     font-size: 0.8rem;
   }
   .navbar-collapse {
-    background-color: white !important;
+    background-color: black !important;
     text-align: center;
-    border-radius: 0px 0px 22px 22px;
+    border-radius: 22px 22px 22px 22px;
+    margin-top: 8px;
   }
   .nav-link:focus,
   .nav-link:hover,
@@ -72,7 +73,7 @@ textarea {
     color: var(--accent-color) !important;
   }
   .custom-contact {
-    background-color: var(--accent-color);
+    background-color: black;
   }
   .custom-contact > .nav-link {
     color: var(--bs-nav-link-color);
