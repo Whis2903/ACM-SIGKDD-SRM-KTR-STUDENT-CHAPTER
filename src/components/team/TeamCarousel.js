@@ -7,7 +7,7 @@ function TeamCarousel() {
   return (
     <>
       <section className="section">
-        <div className="container">
+        <div className="container" style={{marginTop:"20px"}}>
           <div className="row justify-content-center">
             <div className="col-sm-5 col-lg-9 w-100vw">
               <Carousel fade>

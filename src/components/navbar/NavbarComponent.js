@@ -110,12 +110,12 @@ function NavbarComponent() {
                     </span>{" "}
                     something
                   </h1>
-                  <p>Our team will reply as soon as possible</p>
+                  <p style={{fontWeight:"bold"}}>Our team will reply as soon as possible</p>
                   <div className="contact-form">
                     <Form noValidate validated={validated} onSubmit={handleSubmit}>
                       <Row className="mb-3">
                         <Form.Group as={Col} md="6" controlId="validationCustom01">
-                          <Form.Label>Name</Form.Label>
+                          <Form.Label style={{fontWeight:"bold"}}>Name</Form.Label>
                           <Form.Control
                             required
                             type="text"
@@ -125,14 +125,14 @@ function NavbarComponent() {
                           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="6" controlId="validationCustom02">
-                          <Form.Label>Email</Form.Label>
+                          <Form.Label style={{fontWeight:"bold"}}>Email</Form.Label>
                           <Form.Control required type="email" placeholder="Email" name="Email" />
                           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
                         </Form.Group>
                       </Row>
                       <Row className="mb-3">
                       <Form.Group as={Col} md="12" controlId="validationCustom03">
-                          <Form.Label>Subject</Form.Label>
+                          <Form.Label style={{fontWeight:"bold"}}>Subject</Form.Label>
                           <Form.Control
                             required
                             as="textarea" rows={1}
@@ -144,7 +144,7 @@ function NavbarComponent() {
                           </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="12" controlId="validationCustom03" style={{marginTop:"10px"}}>
-                          <Form.Label>Message</Form.Label>
+                          <Form.Label style={{fontWeight:"bold"}}>Message</Form.Label>
                           <Form.Control
                             required
                             as="textarea" rows={4}

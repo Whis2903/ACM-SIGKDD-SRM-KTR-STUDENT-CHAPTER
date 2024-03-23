@@ -46,11 +46,13 @@ textarea {
   margin: 20px 0px 0px 0px;
   background: var(--secondary-color);
   color: var(--accent-color);
+  font-weight: bold;
 }
 .submit-button:hover {
   background: transparent;
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
+  font-weight: bold;
 }
 
 @media (max-width: 480px) {

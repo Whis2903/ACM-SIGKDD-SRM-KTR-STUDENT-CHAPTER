@@ -80,7 +80,7 @@ function Team() {
                     className="nav-link tab-btn"
                     id="webappdev-tab"
                     targetID="#webappdev-tab-pane"
-                    title="Web/App Team"
+                    title="Web/App Dev Team"
                     selected="false"
                   />
                   <Tab
