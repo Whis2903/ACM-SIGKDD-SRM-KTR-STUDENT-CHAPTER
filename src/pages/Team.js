@@ -44,7 +44,7 @@ function Team() {
                       <h1>
                         Meet Our{" "}
                         <span style={{ color: "var(--secondary-color)" }}>
-                          TEAM of designers, developers and creators
+                          TEAM of developers, designers and creators
                         </span>
                       </h1>
                     </div>
