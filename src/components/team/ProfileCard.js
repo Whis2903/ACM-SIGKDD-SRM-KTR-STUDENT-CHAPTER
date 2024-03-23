@@ -11,14 +11,18 @@ function ProfileCard(props) {
         <div className="card-body">
           <h5 className="card-title">{props.name}</h5>
           <p className="card-text">{props.role}</p>
-          <a href={props.linkedinUrl} target="_blank" rel="noreferrer" className="connect-button btn">
-            <FontAwesomeIcon icon={faLinkedin} style={{marginRight:"2px"}} />
-            LinkedIn
-          </a>
-          <a href={props.githubUrl} target="_blank" rel="noreferrer" className="connect-button btn" style={{ marginLeft: "10px" }}>
-            <FontAwesomeIcon icon={faGithub} style={{marginRight:"3px"}} />
-            GitHub
-          </a>
+          {props.linkedinUrl && (
+            <a href={props.linkedinUrl} target="_blank" rel="noreferrer" className="connect-button btn">
+              <FontAwesomeIcon icon={faLinkedin} style={{ marginRight: "2px" }} />
+              LinkedIn
+            </a>
+          )}
+          {props.githubUrl && (
+            <a href={props.githubUrl} target="_blank" rel="noreferrer" className="connect-button btn" style={{ marginLeft: "10px" }}>
+              <FontAwesomeIcon icon={faGithub} style={{ marginRight: "3px" }} />
+              GitHub
+            </a>
+          )}
         </div>
       </div>
     </div>
